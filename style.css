@@ -1,0 +1,12 @@
+.btn .svg-start {display: block;}
+.btn .svg-end {display: none;}
+
+.btn.btn--toggle .svg-start{display: none;}
+.btn.btn--toggle .svg-end {display: block;}
+
+.btn {
+  border: 0;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+}

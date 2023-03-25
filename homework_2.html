@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>homework_1</title>
+</head>
+    <body>
+        <button class="j_btn"> Нажми меня </button>
+          <script>
+           const btn = document.querySelector('.j_btn')
+
+           btn.addEventListener('click', () => {
+           let x = document.documentElement.clientWidth
+            console.log('1')
+            let y = document.documentElement.clientHeight 
+            console.log("2")
+            alert(`Ширина экрана - ${x}, высота экрана -${y}`)  
+           })  
+          </script>
+      </body>        
+  </html>
